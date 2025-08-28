@@ -48,11 +48,41 @@ This repository contains my cloud architecture case studies and supporting docum
 
 ---
 
+## Key Projects
+
+- [**Kubernetes (EKS)**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#kubernetes-eks) — Production-style EKS with IaC, managed node groups, autoscaling (HPA), rollout/rollback strategy, and ops runbooks with basic observability.  
+  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/KUBERNETES
+
+- [**DevOps, IaC & CI:CD Pipelines**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#devops-iac--cicd-pipelines) — End-to-end delivery using CodePipeline/CodeBuild/CodeDeploy with GitHub integration, staged releases, approvals, and automated rollback; CloudFormation/Terraform touchpoints.  
+  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines
+
+- [**Compute & Containers**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#compute--containers) — Dockerized apps and multi-account delivery patterns, including ECR policies/replication and guidance on when to choose Beanstalk, EKS, or serverless.  
+  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/Compute%20%26%20Containers
+
+- [**Networking**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#networking) — VPC fundamentals, private subnetting, VPC endpoints (Gateway/Interface), peering, flow-log monitoring, and security controls (SGs/NACLs).  
+  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/Networking
+
+- [**Data & Databases**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#data--databases) — Aurora connectivity and DynamoDB data modeling: access patterns first, keys/GSIs, TTL, and capacity/throughput considerations with example query shapes.  
+  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/Data%20%26%20Databases
+
+- [**Storage, Web Hosting & Security**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#storage-web-hosting--security) — Secure static web delivery (S3 + CloudFront with OAC & TLS), cache policies/invalidation strategy, and day-1 security guardrails (IAM, KMS, GuardDuty, Secrets Manager).  
+  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/STORAGE%2C%20Web%20Hosting%20%26%20SECURITY
+
+- [**Account Baselines**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#account-baselines) — Account setup, foundational guardrails, and organization-level hygiene for safe multi-env operations.  
+  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/Account%20Baselines
+
+- [**Analytics**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#analytics) — QuickSight dashboards and reporting patterns to surface product and operational metrics.  
+  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/ANALYTICS
+
+
+---
 
 ### Certifications
 - AWS Certified Solutions Architect – Professional
 - Microsoft AZ‑305 (Azure Solutions Architect)
 - Scrum Master • Product Owner • Agile Coach (Scrum Institute)
+
+---
 
 ### Contact
 * abiuwakehinde96@outlook.com
