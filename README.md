@@ -1,90 +1,150 @@
-# Cloud Portfolio — Solutions Architect (AWS & Azure)
+# Cloud Portfolio — AWS & Azure Solutions
 
-This repository contains my cloud architecture case studies and supporting documents. Each folder below is a project; inside you’ll find PDFs and diagrams. All names match the structure in this repo.
+Hands-on cloud architecture projects across **serverless**, **containers/Kubernetes**, **networking**, **data**, **security**, and **CI/CD + IaC**.  
 
-## Index
+Each folder contains a focused project with **PDF walkthroughs** and **diagrams**.
 
-- **ANALYTICS/**
-  - [VISUALIZE DATA WITH QUICKSIGHT.pdf](ANALYTICS/VISUALIZE%20DATA%20WITH%20QUICKSIGHT.pdf)
-  - [example.pdf](ANALYTICS/example.pdf)
-- **Account Baselines/**
-  - [Set up an Account with AWS.pdf](Account%20Baselines/Set%20up%20an%20Account%20with%20AWS.pdf)
-- **Compute & Containers/**
-  - [Deploy an App Across Multiple Accounts.pdf](Compute%20%26%20Containers/Deploy%20an%20App%20Across%20Multiple%20Accounts.pdf)
-  - [Deploy an App with Docker.pdf](Compute%20%26%20Containers/Deploy%20an%20App%20with%20Docker.pdf)
-- **Data & Databases/**
-  - [PART 1 - Visualise a Relational Database.pdf](Data%20%26%20Databases/PART%201%20-%20Visualise%20a%20Relational%20Database.pdf)
-  - [PART 2 - Connect a web App to Amazon Aurora.pdf](Data%20%26%20Databases/PART%202%20-%20Connect%20a%20web%20App%20to%20Amazon%20Aurora.pdf)
-  - [PART 3 - Connect a web app to Amazon Aurora.pdf](Data%20%26%20Databases/PART%203%20-%20Connect%20a%20web%20app%20to%20Amazon%20Aurora.pdf)
-  - [PART 4 - Load Data into a DynamoDB Table.pdf](Data%20%26%20Databases/PART%204%20-%20Load%20Data%20into%20a%20DynamoDB%20Table.pdf)
-  - [PART 5 - Query Data with DynamoDB.pdf](Data%20%26%20Databases/PART%205%20-%20Query%20Data%20with%20DynamoDB.pdf)
-- **DevOps, IaC & CI:CD Pipelines/**
-  - [CREATE S3 BUCKETS WITH TERRAFORM.pdf](DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines/CREATE%20S3%20BUCKETS%20WITH%20TERRAFORM.pdf)
-  - [PART 1 - Set up a web app using AWS & VS Code.pdf](DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines/PART%201%20-%20Set%20up%20a%20web%20app%20using%20AWS%20%26%20VS%20Code.pdf)
-  - [PART 2 - Connect Github Repo with AWS.pdf](DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines/PART%202%20-%20Connect%20Github%20Repo%20with%20AWS.pdf)
-  - [PART 3 - Secure Packages with CodeArtifact.pdf](DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines/PART%203%20-%20Secure%20Packages%20with%20CodeArtifact.pdf)
-  - [PART 4 - Continuous Integration with CodeBuild.pdf](DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines/PART%204%20-%20Continuous%20Integration%20with%20CodeBuild.pdf)
-  - [PART 5 - Deploy a Web App with CodeDeploy.pdf](DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines/PART%205%20-%20Deploy%20a%20Web%20App%20with%20CodeDeploy.pdf)
-  - [PART 6 - Infrastructure as Code (IaC) with CloudFormation.pdf](DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines/PART%206%20-%20Infrastructure%20as%20Code%20%28IaC%29%20with%20CloudFormation.pdf)
-  - [PART 7 - Build a CI:CD Pipeline with AWS.pdf](DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines/PART%207%20-%20Build%20a%20CI%3ACD%20Pipeline%20with%20AWS.pdf)
-- **KUBERNETES/**
-  - [PART 1 - Launch a Kubernetes Cluster.pdf](KUBERNETES/PART%201%20-%20Launch%20a%20Kubernetes%20Cluster.pdf)
-  - [PART 2 - Set Up Kubernetes Deployment.pdf](KUBERNETES/PART%202%20-%20Set%20Up%20Kubernetes%20Deployment.pdf)
-- **MULTI CLOUD SERIES/**
-- **Networking/**
-  - [PART 1 - Build a Virtual Private Cloud (VPC).pdf](Networking/PART%201%20-%20Build%20a%20Virtual%20Private%20Cloud%20%28VPC%29.pdf)
-  - [PART 2 - VPC Traffic Flow and Security.pdf](Networking/PART%202%20-%20VPC%20Traffic%20Flow%20and%20Security.pdf)
-  - [PART 3 - Creating a Private Subnet.pdf](Networking/PART%203%20-%20Creating%20a%20Private%20Subnet.pdf)
-  - [PART 4 - Launching VPC Resources.pdf](Networking/PART%204%20-%20Launching%20VPC%20Resources.pdf)
-  - [PART 5 - Testing VPC Connectivity.pdf](Networking/PART%205%20-%20Testing%20VPC%20Connectivity.pdf)
-  - [PART 6 - VPC Peering.pdf](Networking/PART%206%20-%20VPC%20Peering.pdf)
-  - [PART 7 - VPC Monitoring with Flow Logs.pdf](Networking/PART%207%20-%20VPC%20Monitoring%20with%20Flow%20Logs.pdf)
-  - [PART 8 - Access S3 from a VPC.pdf](Networking/PART%208%20-%20Access%20S3%20from%20a%20VPC.pdf)
-  - [PART 9 - VPC Endpoints.pdf](Networking/PART%209%20-%20VPC%20Endpoints.pdf)
-- **STORAGE, Web Hosting & SECURITY/**
-  - [Cloud Security with AWS IAM.pdf](STORAGE%2C%20Web%20Hosting%20%26%20SECURITY/Cloud%20Security%20with%20AWS%20IAM.pdf)
-  - [Host a website on Amazon S3.pdf](STORAGE%2C%20Web%20Hosting%20%26%20SECURITY/Host%20a%20website%20on%20Amazon%20S3.pdf)
-- **THREE-TIER SERIES/**
+> Goal: demonstrate production-minded designs that balance security, reliability, performance, cost, and operational excellence.
 
 ---
 
-## Key Projects
+## 📌 Table of Contents
 
-- [**Kubernetes (EKS)**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#kubernetes-eks) — Production-style EKS with IaC, managed node groups, autoscaling (HPA), rollout/rollback strategy, and ops runbooks with basic observability.  
-  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/KUBERNETES
+- [Portfolio Map (Folders & Artifacts)](#-portfolio-map-folders--artifacts)
+- [Suggested Review Roadmap](#-suggested-review-roadmap)
+- [Highlighted Project: Three-Tier Serverless Web App](#-highlighted-project-three-tier-serverless-web-app)
+- [Core Skills & Services](#-core-skills--services)
+- [Certifications](#-certifications)
+- [How to Use This Repository](#-how-to-use-this-repository)
+- [Contact](#-contact)
 
-- [**DevOps, IaC & CI:CD Pipelines**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#devops-iac--cicd-pipelines) — End-to-end delivery using CodePipeline/CodeBuild/CodeDeploy with GitHub integration, staged releases, approvals, and automated rollback; CloudFormation/Terraform touchpoints.  
-  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/DevOps%2C%20IaC%20%26%20CI%3ACD%20Pipelines
+---
 
-- [**Compute & Containers**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#compute--containers) — Dockerized apps and multi-account delivery patterns, including ECR policies/replication and guidance on when to choose Beanstalk, EKS, or serverless.  
-  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/Compute%20%26%20Containers
+## 🗺️ Portfolio Map (Folders & Artifacts)
 
-- [**Networking**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#networking) — VPC fundamentals, private subnetting, VPC endpoints (Gateway/Interface), peering, flow-log monitoring, and security controls (SGs/NACLs).  
-  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/Networking
+> Open a folder, then click the PDF(s) to view the full case study and diagrams.
 
-- [**Data & Databases**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#data--databases) — Aurora connectivity and DynamoDB data modeling: access patterns first, keys/GSIs, TTL, and capacity/throughput considerations with example query shapes.  
-  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/Data%20%26%20Databases
+### ANALYTICS
+- [VISUALIZE DATA WITH QUICKSIGHT.pdf](ANALYTICS/VISUALIZE%20DATA%20WITH%20QUICKSIGHT.pdf)  
+- [example.pdf](ANALYTICS/example.pdf)
 
-- [**Storage, Web Hosting & Security**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#storage-web-hosting--security) — Secure static web delivery (S3 + CloudFront with OAC & TLS), cache policies/invalidation strategy, and day-1 security guardrails (IAM, KMS, GuardDuty, Secrets Manager).  
-  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/STORAGE%2C%20Web%20Hosting%20%26%20SECURITY
+### Account Baselines
+- [Set up an Account with AWS.pdf](Account%20Baselines/Set%20up%20an%20Account%20with%20AWS.pdf)
 
-- [**Account Baselines**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#account-baselines) — Account setup, foundational guardrails, and organization-level hygiene for safe multi-env operations.  
-  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/Account%20Baselines
+### Compute & Containers
+- [Deploy an App Across Multiple Accounts.pdf](Compute%20%26%20Containers/Deploy%20an%20App%20Across%20Multiple%20Accounts.pdf)  
+- [Deploy an App with Docker.pdf](Compute%20%26%20Containers/Deploy%20an%20App%20with%20Docker.pdf)
 
-- [**Analytics**](https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/blob/main/README.md#analytics) — QuickSight dashboards and reporting patterns to surface product and operational metrics.  
-  **Folder:** https://github.com/kehindeabiuwa-dotcom/cloud-portfolio/tree/main/ANALYTICS
+### Data & Databases
+- [PART 1 - Visualise a Relational Database.pdf](Data%20%26%20Databases/PART%201%20-%20Visualise%20a%20Relational%20Database.pdf)  
+- [PART 2 - Connect a web App to Amazon Aurora.pdf](Data%20%26%20Databases/PART%202%20-%20Connect%20a%20web%20App%20to%20Amazon%20Aurora.pdf)  
+- [PART 3 - Connect a web app to Amazon Aurora.pdf](Data%20%26%20Databases/PART%203%20-%20Connect%20a%20web%20app%20to%20Amazon%20Aurora.pdf)  
+- [PART 4 - Load Data into a DynamoDB Table.pdf](Data%20%26%20Databases/PART%204%20-%20Load%20Data%20into%20a%20DynamoDB%20Table.pdf)  
+- [PART 5 - Query Data with DynamoDB.pdf](Data%20%26%20Databases/PART%205%20-%20Query%20Data%20with%20DynamoDB.pdf)
+
+### DevOps, IaC & CI:CD Pipelines
+- [CREATE S3 BUCKETS WITH TERRAFORM.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/CREATE%20S3%20BUCKETS%20WITH%20TERRAFORM.pdf)  
+- [PART 1 - Set up a web app using AWS & VS Code.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/PART%201%20-%20Set%20up%20a%20web%20app%20using%20AWS%20%26%20VS%20Code.pdf)  
+- [PART 2 - Connect Github Repo with AWS.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/PART%202%20-%20Connect%20Github%20Repo%20with%20AWS.pdf)  
+- [PART 3 - Secure Packages with CodeArtifact.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/PART%203%20-%20Secure%20Packages%20with%20CodeArtifact.pdf)  
+- [PART 4 - Continuous Integration with CodeBuild.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/PART%204%20-%20Continuous%20Integration%20with%20CodeBuild.pdf)  
+- [PART 5 - Deploy a Web App with CodeDeploy.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/PART%205%20-%20Deploy%20a%20Web%20App%20with%20CodeDeploy.pdf)  
+- [PART 6 - Infrastructure as Code (IaC) with CloudFormation.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/PART%206%20-%20Infrastructure%20as%20Code%20(IaC)%20with%20CloudFormation.pdf)  
+- [PART 7 - Build a CI:CD Pipeline with AWS.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/PART%207%20-%20Build%20a%20CI%3ACD%20Pipeline%20with%20AWS.pdf)
+
+### KUBERNETES
+- [PART 1 - Launch a Kubernetes Cluster.pdf](KUBERNETES/PART%201%20-%20Launch%20a%20Kubernetes%20Cluster.pdf)  
+- [PART 2 - Set Up Kubernetes Deployment.pdf](KUBERNETES/PART%202%20-%20Set%20Up%20Kubernetes%20Deployment.pdf)
+
+### MULTI CLOUD SERIES
+- [Multi-Cloud Data Transfer with AWS & GCP.pdf](MULTI%20CLOUD%20SERIES/Multi-Cloud%20Data%20Transfer%20with%20AWS%20%26%20GCP.pdf)
+
+### Networking
+- [PART 1 - Build a Virtual Private Cloud (VPC).pdf](Networking/PART%201%20-%20Build%20a%20Virtual%20Private%20Cloud%20(VPC).pdf)  
+- [PART 2 - VPC Traffic Flow and Security.pdf](Networking/PART%202%20-%20VPC%20Traffic%20Flow%20and%20Security.pdf)  
+- [PART 3 - Creating a Private Subnet.pdf](Networking/PART%203%20-%20Creating%20a%20Private%20Subnet.pdf)  
+- [PART 4 - Launching VPC Resources.pdf](Networking/PART%204%20-%20Launching%20VPC%20Resources.pdf)  
+- [PART 5 - Testing VPC Connectivity.pdf](Networking/PART%205%20-%20Testing%20VPC%20Connectivity.pdf)  
+- [PART 6 - VPC Peering.pdf](Networking/PART%206%20-%20VPC%20Peering.pdf)  
+- [PART 7 - VPC Monitoring with Flow Logs.pdf](Networking/PART%207%20-%20VPC%20Monitoring%20with%20Flow%20Logs.pdf)  
+- [PART 8 - Access S3 from a VPC.pdf](Networking/PART%208%20-%20Access%20S3%20from%20a%20VPC.pdf)  
+- [PART 9 - VPC Endpoints.pdf](Networking/PART%209%20-%20VPC%20Endpoints.pdf)
+
+### STORAGE, Web Hosting & SECURITY
+- [Cloud Security with AWS IAM.pdf](STORAGE,%20Web%20Hosting%20%26%20SECURITY/Cloud%20Security%20with%20AWS%20IAM.pdf)  
+- [Host a website on Amazon S3.pdf](STORAGE,%20Web%20Hosting%20%26%20SECURITY/Host%20a%20website%20on%20Amazon%20S3.pdf)
+
+### THREE-TIER SERIES
+- [Part 1 – Website Delivery with CloudFront.pdf](THREE-TIER%20SERIES/Part%201%20%E2%80%93%20Website%20Delivery%20with%20CloudFront.pdf)  
+- [Part 2 – APIs with Lambda + API Gateway.pdf](THREE-TIER%20SERIES/Part%202%20%E2%80%93%20APIs%20with%20Lambda%20%2B%20API%20Gateway.pdf)  
+- [Part 3 – Fetch Data with AWS Lambda.pdf](THREE-TIER%20SERIES/Part%203%20%E2%80%93%20Fetch%20Data%20with%20AWS%20Lambda.pdf)  
+- [Part 4 – Build a Three-Tier Web App.pdf](THREE-TIER%20SERIES/Part%204%20%E2%80%93%20Build%20a%20Three-Tier%20Web%20App.pdf)
+
+---
+
+## 🧭 Suggested Review Roadmap
+
+A clear, production-minded sequence:
+
+1. **Account Baselines** → foundational guardrails, identity, org hygiene.  
+2. **STORAGE, Web Hosting & SECURITY** → S3 + CloudFront with OAI/OAC, TLS, caching & invalidations.  
+3. **THREE-TIER SERIES (Featured)** → complete serverless app: presentation → logic → data.  
+4. **DevOps, IaC & CI:CD Pipelines** → Terraform starter, artifact security (CodeArtifact), CI (CodeBuild), deploy (CodeDeploy), CloudFormation, full CI/CD.  
+5. **Data & Databases** → Aurora + DynamoDB patterns (keys/GSIs/TTL/RCU-WCU).  
+6. **Networking** → VPC design, private subnets, endpoints, peering, flow logs, S3 from VPC.  
+7. **Compute & Containers** → Docker & multi-account delivery patterns.  
+8. **KUBERNETES** → EKS cluster, deployments, autoscaling, rollouts.  
+9. **ANALYTICS** → QuickSight dashboards.
+
+---
+
+## ⭐ Highlighted Project: Three-Tier Serverless Web App
+
+- **Architecture:** S3 + CloudFront → API Gateway → Lambda → DynamoDB  
+- **Focus:** CORS (API Gateway & Lambda), least-privilege IAM, CloudFront cache strategy, `userId` as partition key for O(1) lookups.  
+- **Where to look:** see the four PDFs under **THREE-TIER SERIES** above.
+
+---
+
+## 🧠 Core Skills & Services
+
+**Kubernetes (K8s):** EKS, cluster provisioning, deployments/rollouts, HPA, RBAC, Ingress/ALB, ConfigMaps/Secrets, Helm
+
+**IaC (Infrastructure as Code):** Terraform, CloudFormation, modular stacks, environment parity, CI/CD-driven provisioning
+
+**AWS:** S3, CloudFront, Lambda, API Gateway, DynamoDB, Aurora, EKS, VPC, IAM, KMS, Secrets Manager, CloudWatch, CodePipeline/CodeBuild/CodeDeploy
+
+**DevOps & CI/CD:** Git/GitHub, build/test/package promotions, artifact security (CodeArtifact), blue/green & rolling deploys
+
+**Containers:** Docker images, multi-stage builds, registries, runtime hardening
+
+**Data & Analytics:** Amazon Aurora (RDS), DynamoDB (keys/GSIs/TTL/RCU/WCU), QuickSight
+
+**Security:** IAM least-privilege, private networking, VPC endpoints, encryption at rest/in transit, secrets management, audit & logging
 
 
 ---
 
-### Certifications
-- AWS Certified Solutions Architect – Professional
-- Microsoft AZ‑305 (Azure Solutions Architect)
-- Scrum Master • Product Owner • Agile Coach (Scrum Institute)
+## 🥇 Certifications
+
+- **AWS Certified Solutions Architect – Professional**  
+- **Microsoft AZ-305 (Azure Solutions Architect)**  
+- **Scrum Master • Product Owner • Agile Coach** (Scrum Institute)
 
 ---
 
-### Contact
-* abiuwakehinde96@outlook.com
+## 📖 How to Use This Repository
 
-Open to Solutions Architect roles (remote/hybrid). Connect on LinkedIn or open an issue to request a walk‑through.
+- **Browse by topic:** open any folder above; read the PDF(s) in order.  
+- **Reproduce selectively:** most projects include prerequisites and step-by-steps; clone, adapt, and run in a sandbox AWS account.  
+- **Connect the dots:** follow the **Suggested Review Roadmap** for a quick, cohesive tour.
+
+> Tip: If a link with spaces/symbols doesn’t open directly, click into the folder and select the PDF from there.
+
+---
+
+## 📬 Contact
+
+- **Email:** abiuwakehinde96@outlook.com  
+- Open to **Solutions Architect** roles (remote/hybrid).  
+- Open an **Issue** here to request a live walkthrough.
