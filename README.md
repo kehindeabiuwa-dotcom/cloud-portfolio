@@ -75,10 +75,10 @@ Each folder contains a focused project with **PDF walkthroughs** and **diagrams*
 - [Host a website on Amazon S3.pdf](STORAGE,%20Web%20Hosting%20%26%20SECURITY/Host%20a%20website%20on%20Amazon%20S3.pdf)
 
 ### THREE-TIER SERIES
-- [Part 1 – Website Delivery with CloudFront.pdf](THREE-TIER%20SERIES/Part%201%20%E2%80%93%20Website%20Delivery%20with%20CloudFront.pdf)  
-- [Part 2 – APIs with Lambda + API Gateway.pdf](THREE-TIER%20SERIES/Part%202%20%E2%80%93%20APIs%20with%20Lambda%20%2B%20API%20Gateway.pdf)  
-- [Part 3 – Fetch Data with AWS Lambda.pdf](THREE-TIER%20SERIES/Part%203%20%E2%80%93%20Fetch%20Data%20with%20AWS%20Lambda.pdf)  
-- [Part 4 – Build a Three-Tier Web App.pdf](THREE-TIER%20SERIES/Part%204%20%E2%80%93%20Build%20a%20Three-Tier%20Web%20App.pdf)
+- [Part 1 – Website Delivery with CloudFront.pdf](THREE-TIER%20SERIES/Part%201%20-%20Website%20Delviery%20with%20CloudFront.pdf)  
+- [Part 2 – APIs with Lambda + API Gateway.pdf](THREE-TIER%20SERIES/Part%202%20-%20APIs%20with%20Lambda%20%2B%20API%20Gateway.pdf)  
+- [Part 3 – Fetch Data with AWS Lambda.pdf](THREE-TIER%20SERIES/Part%203%20-%20Fetch%20Data%20with%20AWS%20Lambda.pdf)  
+- [Part 4 – Build a Three-Tier Web App.pdf](THREE-TIER%20SERIES/Part%204%20-%20Build%20a%20Three-Tier%20Web%20App.pdf)
 
 ---
 
