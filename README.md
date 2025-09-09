@@ -1,8 +1,8 @@
 # Cloud Portfolio — AWS & Azure Solutions
 
-Hands-on cloud architecture projects across **serverless**, **containers/Kubernetes**, **networking**, **data**, **security**, and **CI/CD + IaC**.  
+A curated portfolio of AWS & Azure solutions covering serverless, Kubernetes, networking, data, security, and CI/CD with IaC.  
 
-Each folder contains a focused project with **PDF walkthroughs** and **diagrams**.
+Each directory includes a PDF walkthrough and diagrams to show the **why**, **how**, and **trade-offs** behind production-minded designs.
 
 > Goal: demonstrate production-minded designs that balance security, reliability, performance, cost, and operational excellence.
 
@@ -13,7 +13,7 @@ Each folder contains a focused project with **PDF walkthroughs** and **diagrams*
 - [Portfolio Map (Folders & Artifacts)](#-portfolio-map-folders--artifacts)
 - [Suggested Review Roadmap](#-suggested-review-roadmap)
 - [Highlighted Project: Three-Tier Serverless Web App](#-highlighted-project-three-tier-serverless-web-app)
-- [Core Skills & Services](#-core-skills--services)
+- [Core Skills & Projects](#-core-skills--projects)
 - [Certifications](#-certifications)
 - [How to Use This Repository](#-how-to-use-this-repository)
 - [Contact](#-contact)
@@ -53,8 +53,11 @@ Each folder contains a focused project with **PDF walkthroughs** and **diagrams*
 - [PART 7 - Build a CI:CD Pipeline with AWS.pdf](DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/PART%207%20-%20Build%20a%20CI%3ACD%20Pipeline%20with%20AWS.pdf)
 
 ### KUBERNETES
-- [PART 1 - Launch a Kubernetes Cluster.pdf](KUBERNETES/PART%201%20-%20Launch%20a%20Kubernetes%20Cluster.pdf)  
-- [PART 2 - Set Up Kubernetes Deployment.pdf](KUBERNETES/PART%202%20-%20Set%20Up%20Kubernetes%20Deployment.pdf)
+- [PART 1 - Launch a Kubernetes Cluster.pdf](./KUBERNETES/PART%201%20-%20Launch%20a%20Kubernetes%20Cluster.pdf)
+- [PART 2 - Set Up Kubernetes Deployment.pdf](./KUBERNETES/PART%202%20-%20Set%20Up%20Kubernetes%20Deployment.pdf)
+- [PART 3 - Create Kubernetes Manifests.pdf](./KUBERNETES/PART%203%20-%20Create%20Kubernetes%20Manifests.pdf)
+- [PART 4 - Deploy Backend with Kubernetes.pdf](./KUBERNETES/PART%204%20-%20Deploy%20Backend%20with%20Kubernetes.pdf)
+
 
 ### MULTI CLOUD SERIES
 - [Multi-Cloud Data Transfer with AWS & GCP.pdf](MULTI%20CLOUD%20SERIES/Multi-Cloud%20Data%20Transfer%20with%20AWS%20%26%20GCP.pdf)
@@ -71,8 +74,12 @@ Each folder contains a focused project with **PDF walkthroughs** and **diagrams*
 - [PART 9 - VPC Endpoints.pdf](Networking/PART%209%20-%20VPC%20Endpoints.pdf)
 
 ### STORAGE, Web Hosting & SECURITY
-- [Cloud Security with AWS IAM.pdf](STORAGE,%20Web%20Hosting%20%26%20SECURITY/Cloud%20Security%20with%20AWS%20IAM.pdf)  
-- [Host a website on Amazon S3.pdf](STORAGE,%20Web%20Hosting%20%26%20SECURITY/Host%20a%20website%20on%20Amazon%20S3.pdf)
+- [Build a Security Monitoring System.pdf](./STORAGE,%20Web%20Hosting%20%26%20SECURITY/Build%20a%20Security%20Monitoring%20System.pdf)
+- [Cloud Security with AWS IAM.pdf](./STORAGE,%20Web%20Hosting%20%26%20SECURITY/Cloud%20Security%20with%20AWS%20IAM.pdf)
+- [Encrypt Data with AWS KMS.pdf](./STORAGE,%20Web%20Hosting%20%26%20SECURITY/Encrypt%20Data%20with%20AWS%20KMS.pdf)
+- [Host a website on Amazon S3.pdf](./STORAGE,%20Web%20Hosting%20%26%20SECURITY/Host%20a%20website%20on%20Amazon%20S3.pdf)
+- [Secure Secrets with AWS Secrets Manager.pdf](./STORAGE,%20Web%20Hosting%20%26%20SECURITY/Secure%20Secrets%20with%20AWS%20Secrets%20Manager.pdf)
+- [Threat Detection with GuardDuty.pdf](./STORAGE,%20Web%20Hosting%20%26%20SECURITY/Threat%20Detection%20with%20GuardDuty.pdf)
 
 ### THREE-TIER SERIES
 - [Part 1 – Website Delivery with CloudFront.pdf](THREE-TIER%20SERIES/Part%201%20-%20Website%20Delviery%20with%20CloudFront.pdf)  
@@ -86,15 +93,16 @@ Each folder contains a focused project with **PDF walkthroughs** and **diagrams*
 
 A clear, production-minded sequence:
 
-1. **Account Baselines** → foundational guardrails, identity, org hygiene.  
-2. **STORAGE, Web Hosting & SECURITY** → S3 + CloudFront with OAI/OAC, TLS, caching & invalidations.  
-3. **THREE-TIER SERIES (Featured)** → complete serverless app: presentation → logic → data.  
-4. **DevOps, IaC & CI:CD Pipelines** → Terraform starter, artifact security (CodeArtifact), CI (CodeBuild), deploy (CodeDeploy), CloudFormation, full CI/CD.  
-5. **Data & Databases** → Aurora + DynamoDB patterns (keys/GSIs/TTL/RCU-WCU).  
-6. **Networking** → VPC design, private subnets, endpoints, peering, flow logs, S3 from VPC.  
-7. **Compute & Containers** → Docker & multi-account delivery patterns.  
-8. **KUBERNETES** → EKS cluster, deployments, autoscaling, rollouts.  
-9. **ANALYTICS** → QuickSight dashboards.
+1) [Account Baselines](./Account%20Baselines/) — set up accounts & guardrails  
+3) [STORAGE, Web Hosting & SECURITY](./STORAGE,%20Web%20Hosting%20%26%20SECURITY/) — host static site & secure basics  
+4) [THREE-TIER SERIES](./THREE-TIER%20SERIES/) — featured end-to-end app (Parts 1–4)  
+5) [DevOps, IaC & CI:CD Pipelines](./DevOps,%20IaC%20%26%20CI%3ACD%20Pipelines/) — build, test, deploy, IaC  
+6) [Data & Databases](./Data%20%26%20Databases/) — Aurora & DynamoDB patterns  
+7) [Networking](./Networking/) — VPCs, subnets, endpoints, peering  
+8) [Compute & Containers](./Compute%20%26%20Containers/) — Docker & multi-account delivery  
+9) [KUBERNETES](./KUBERNETES/) — EKS cluster, deploy, scale  
+10) [ANALYTICS](./ANALYTICS/) — QuickSight dashboards  
+11) [MULTI CLOUD SERIES](./MULTI%20CLOUD%20SERIES/) — AWS ↔ GCP data flows
 
 ---
 
@@ -106,7 +114,7 @@ A clear, production-minded sequence:
 
 ---
 
-## 🧠 Core Skills & Services
+## 🧠 Core Skills & Projects
 
 **Kubernetes (K8s):** EKS, cluster provisioning, deployments/rollouts, HPA, RBAC, Ingress/ALB, ConfigMaps/Secrets, Helm
 
